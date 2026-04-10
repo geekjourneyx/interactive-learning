@@ -1,0 +1,82 @@
+[
+  {
+    "query": "带我学懂这篇文章，不要给我摘要。我总觉得自己看懂了，但隔天就说不出来。",
+    "should_trigger": true
+  },
+  {
+    "query": "下面这段关于边际效用的文字你帮我一点点带着学，我想确认自己到底会不会用，不只是记住定义。",
+    "should_trigger": true
+  },
+  {
+    "query": "interactive learning 一下这段材料，我想最后导出一个 checkpoint 页面给自己复盘。",
+    "should_trigger": true
+  },
+  {
+    "query": "解释一下二阶效应，但别停在解释，我想被你测一下我是不是真的懂。",
+    "should_trigger": true
+  },
+  {
+    "query": "我在看《穷查理宝典》一段关于激励机制的内容，能不能别总结，直接带我学明白它的核心概念和边界？",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我把这个陌生领域快速拆成几个关键概念，然后带我验证我理解到了哪，不要一股脑讲完。",
+    "should_trigger": true
+  },
+  {
+    "query": "我想把刚刚学到一半的内容导出成学习状态页，重点是我卡在哪和下一步该干嘛。",
+    "should_trigger": true
+  },
+  {
+    "query": "这段论文摘要我不是想翻译，我是想真正吃透。你先判断我该精读还是先略读，再带我走。",
+    "should_trigger": true
+  },
+  {
+    "query": "把这段文字总结成三点，我要发群里。",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我润色一下这段关于 AI 学习方法的文案，口语化一点。",
+    "should_trigger": false
+  },
+  {
+    "query": "直接给我做一张信息卡，视觉好看一点，我要发到小红书。",
+    "should_trigger": false
+  },
+  {
+    "query": "这篇文章太长了，给我一个一分钟能看完的摘要就行。",
+    "should_trigger": false
+  },
+  {
+    "query": "把这个链接内容提炼成 bullet points，我不需要互动。",
+    "should_trigger": false
+  },
+  {
+    "query": "我想和亚里士多德、费曼、哈耶克一起聊聊这个问题，做个名人聊天室。",
+    "should_trigger": false
+  },
+  {
+    "query": "生成一个炫一点的 HTML 页面，总结我最近的学习内容，偏展示感，适合分享。",
+    "should_trigger": false
+  },
+  {
+    "query": "翻译这段英文，然后顺手帮我改写成更通顺的中文。",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我解释一下沉没成本，我赶时间，直接说人话结论，不用测我懂没懂。",
+    "should_trigger": false
+  },
+  {
+    "query": "做个学习 dashboard，把每个概念都打分，最好显示完成度百分比。",
+    "should_trigger": false
+  },
+  {
+    "query": "我想要一个复盘页，但本质上只是想把内容排版得更好看，并不需要继续学习。",
+    "should_trigger": false
+  },
+  {
+    "query": "根据这本书给我列个书单和延伸阅读，不用带我学。",
+    "should_trigger": false
+  }
+]

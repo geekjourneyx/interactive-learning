@@ -1,0 +1,44 @@
+{
+  "skill_name": "interactive-learning",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我把一篇关于印刷机和 AI 内容泛滥的逐字稿贴给你了。不要只总结，带我真正学懂这段话到底在主张什么、隐含了什么前提、哪些地方容易让我产生‘我好像懂了’的错觉。最后给我一个 2 分钟内能完成的下一步复习动作。",
+      "expected_output": "Skill 应触发 interactive epistemic learning 流程，而不是退化成摘要。输出应包含 triage、概念边界、一个最小 concept cluster、最小诊断式互动，以及一个可执行的 next step。",
+      "files": [],
+      "expectations": [
+        "The response does not open with a plain summary.",
+        "The response contains a triage judgment such as skim, study, or park.",
+        "The response identifies a smallest useful concept cluster or equivalent focused learning unit.",
+        "The response includes at least one explicit understanding check directed at the user.",
+        "The response ends with one concrete short next step."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "你解释一下 opportunity cost 吧。我不是要考试定义，我是真的总觉得自己懂这个词，但一到实际决策就不会用。你别长篇讲概念，带我确认我到底懂没懂。",
+      "expected_output": "Skill 应识别这是‘解释一下’外表下的理解验证需求。应优先做最小诊断，再通过重建、比较或应用来验证理解，避免直接长篇定义。",
+      "files": [],
+      "expectations": [
+        "The response treats the request as understanding validation, not just explanation.",
+        "The response starts with a minimal diagnostic before extended teaching.",
+        "The response uses application, comparison, or reconstruction to test understanding.",
+        "The response avoids a long dictionary-style definition as the main move.",
+        "The response tests the concept's key distinction, not just generic recall."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "我刚学了一轮‘反脆弱’和‘鲁棒性’的区别。现在请把我的当前学习状态整理成一个 checkpoint 页面，方便我晚点继续学，也方便发给朋友看我卡在哪。不要做成课程页，也不要做成长摘要。",
+      "expected_output": "Skill 应在满足 checkpoint 条件时进入导出路径，读取 design spec，并生成以 resume / retrieve / share state 为目标的 checkpoint card 结构，而不是 summary page 或 mini app。",
+      "files": [],
+      "expectations": [
+        "The response switches into checkpoint export mode rather than continuing a full teaching loop.",
+        "The response includes topic frame, concept spine, frontier, active prompt, next step, and source anchor or explicit equivalents.",
+        "The response keeps exactly one main active prompt.",
+        "The response does not become a long summary, dashboard, or course outline.",
+        "The active prompt clearly targets the frontier rather than asking a generic review question."
+      ]
+    }
+  ]
+}
